@@ -1,0 +1,1 @@
+bcd relacional: possui estrutura dinamica, coleções.

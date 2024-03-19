@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Tomate",
+      "quantidade": "10kg",
+      "custo": "10",
+      "precoFinal": [
+        {
+          "id": 1,
+          "conteudo": "13"
+        },
+        {
+          "id": 2,
+          "conteudo": "11"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "batata",
+      "quantidade": "10kg",
+      "custo": "5",
+      "precoFinal": [
+        {
+          "id": 1,
+          "conteudo": "8"
+        },
+        {
+          "id": 2,
+          "conteudo": "6"
+        }
+      ]
+    },
+     {
+      "id": "3",
+      "nome": "desinfetante",
+      "quantidade": "50",
+      "custo": "3",
+      "precoFinal": [
+        {
+          "id": 1,
+          "conteudo": "5"
+        },
+        {
+          "id": 2,
+          "conteudo": "4"
+        }
+      ]
+    }
+  ]
+}
