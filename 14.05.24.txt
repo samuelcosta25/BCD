@@ -1,0 +1,12 @@
+Configuraçoes PgAdmin:
+- file >> preferences >> Path >> Binary Paths >> "Postgres12 (binary path) >> Clicar em ícone da pasta para selecionar o caminho >>
+>> Geralmnte o caminho sera: "C:\Program Files\PostgreSQL\16\bin";
+
+Procedimento para realização de backup:
+
+- Existem 4 tipos (Custom, Tair, Plair, Directory), Custom e Directory são os mais utilizados;
+	- Custom: cria arquivos executáveis sql com os dados de backup (puxa separadamento o bkp de tables e de data);
+	- Directory: cria um diretório com um arquivo "toc" dentro, com os dados de backup;
+
+
+
