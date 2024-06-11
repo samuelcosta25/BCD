@@ -1,0 +1,45 @@
+body {
+   margin: 0;
+   background-image: url(/img/bgVeiculo.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   color: white;
+}
+
+.navbar-brand img {
+  width: 85px;
+}
+
+.navbar {
+  background-color: #680000;
+  height: 12vh;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #c7c7c7;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.card {
+   transition: transform 0.2s;
+}
+
+.card:hover {
+   transform: scale(1.05);
+   transition: transform 0.2s;
+}

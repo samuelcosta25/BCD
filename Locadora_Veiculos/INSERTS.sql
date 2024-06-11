@@ -1,5 +1,11 @@
 -- INSERTS
 
+-- Alterações necessárias nas tabelas já existentes para a realização de consultas
+ALTER TABLE Carro ALTER COLUMN CNH DROP NOT NULL;
+ALTER TABLE Carro ADD Data_Aluguel DATE;
+ALTER TABLE Clientes ADD Cidade VARCHAR(16) NOT NULL;
+
+
 INSERT INTO Clientes (CNH, Telefone, Nome, Cartao, Cidade)
 VALUES 
 ('CNH0001', '11987654321', 'João Silva', '1234567812345678', 'São Paulo'),

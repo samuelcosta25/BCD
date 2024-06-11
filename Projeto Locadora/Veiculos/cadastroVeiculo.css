@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+.navbar-brand img {
+  width: 85px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  background-color: #680000;
+  height: 12vh;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #c7c7c7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  height: auto;
+  background: #eeeeee;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+form .imgCadastro {
+  width: 100%;
+}
+
+form .imgCadastro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.formularios {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 45%; /* Cada formulário ocupa 45% do espaço */
+}
+
+.formulario input, select {
+  width: calc(
+    100% - 10px
+  ); /* Para levar em consideração a borda de 2px (5px de cada lado) */
+  height: 37px;
+  margin-top: 7px;
+  background-color: #ffffff;
+  border: solid 1px #c5c5c5;
+  border-radius: 17px;
+  padding: 7px;
+}
+
+.formulario label {
+  font-family: "Lilita One", sans-serif;
+}
+
+.formulario input:not(:last-child), select:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.formulario2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Espaço entre os formulários e o botão */
+}
+
+.enviarCadastro input{
+  width: 150px;
+  height: 45px;
+  border-radius: 27px;
+  border: none;
+  background: #000080;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.enviarCadastro input:hover {
+  background: #0000c7;
+}
+
+@media screen and (max-width: 1280px) {
+  .menu {
+    display: block;
+    /* Exibir o menu */
+  }
+
+  .close-btn {
+    display: block;
+    /* Exibir o botão fechar */
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Exibir o ícone do menu */
+  }
+
+  .col-1 {
+    margin-bottom: 20px;
+  }
+
+  .navegacao2 {
+    display: none;
+  }
+
+  form {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .menu {
+    display: block;
+    /* Exibir o menu */
+  }
+
+  .close-btn {
+    display: block;
+    /* Exibir o botão fechar */
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Exibir o ícone do menu */
+  }
+
+  .col-1 {
+    margin-bottom: 20px;
+  }
+
+  .navegacao2 {
+    display: none;
+  }
+
+  form {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .menu {
+    display: block;
+    /* Exibir o menu */
+  }
+
+  .close-btn {
+    display: block;
+    /* Exibir o botão fechar */
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Exibir o ícone do menu */
+  }
+
+  .col-1 {
+    margin-bottom: 20px;
+  }
+
+  .navegacao2 {
+    display: none;
+  }
+}
+
+/* Estilos para telas menores usando Media Queries */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: block;
+    /* Exibir o menu */
+  }
+
+  .close-btn {
+    display: block;
+    /* Exibir o botão fechar */
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Exibir o ícone do menu */
+  }
+
+  .col-1 {
+    margin-bottom: 20px;
+  }
+
+  .navegacao2 {
+    display: none;
+  }
+}

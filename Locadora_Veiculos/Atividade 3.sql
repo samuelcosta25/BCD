@@ -1,13 +1,9 @@
 -- Aula 3 / Atividade somativa 1
 
--- Alterações necessárias nas tabelas já existentes para a realização de consultas
-ALTER TABLE Carro ALTER COLUMN CNH DROP NOT NULL;
-ALTER TABLE Carro ADD Data_Aluguel DATE;
-ALTER TABLE Clientes ADD Cidade VARCHAR(16) NOT NULL;
 
 -- Criação de novas tabelas que serão necessárias para a realização de consultas
 CREATE TABLE Funcionarios (
-    Funcionario_ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Funcionario_ID INT NOT NULL PRIMARY KEY,
     Nome VARCHAR(40) NOT NULL,
     Telefone VARCHAR(15),
     Endereco VARCHAR(50),
@@ -37,7 +33,7 @@ CREATE TABLE Manutencao (
 --1. **SELECT**
 
 -- Selecione todos os carros disponíveis na locadora.
-SELECT * FROM Carro WHERE CNH IS NULL
+SELECT * FROM Carro WHERE CNH IS NULL;
 
 -- Liste todos os clientes que alugaram um carro nos últimos 3 meses.
 SELECT DISTINCT Clientes.* FROM Clientes 
@@ -195,6 +191,4 @@ SELECT Agencia.*, COUNT(Carro.Placa) AS Total_Carros_Disponiveis
 FROM Agencia
 LEFT JOIN Carro ON Agencia.Numero_Ag = Carro.Numero_Ag
 GROUP BY Agencia.Numero_Ag, Agencia.Contato, Agencia.Endereco;
-
-
 
