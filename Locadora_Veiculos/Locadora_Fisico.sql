@@ -7,7 +7,8 @@ CREATE TABLE Clientes (
 CNH Varchar(16) Not Null PRIMARY KEY,
 Telefone Varchar(15) Not Null,
 Nome Varchar(40) Not Null,
-Cartao Varchar(16) Not Null
+Cartao Varchar(16) Not Null,
+Email Varchar(25) Not Null
 );
 
 CREATE TABLE Carro (
